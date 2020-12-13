@@ -1,0 +1,19 @@
+{
+  "name": "posts-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vanilla Javascript restful posts api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Kevin Caster",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
